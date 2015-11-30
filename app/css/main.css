@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 
 
@@ -142,6 +143,7 @@ footer {
 }
 
 a#g-footer-link {
+    font-family: Open Sans;
     color: white;
     text-decoration: none;
     height: 60px;
