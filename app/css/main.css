@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,700,300);
+
+
+
+body {
+    background: url(../../media/restaurant-hero-image.jpg);
+    background-repeat: no-repeat;
+}
+
+#navbar {
+    background-color: rgba(0,0,0,.5);
+    font-family: Nunito;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+}
+
+#gHome {
+    text-decoration: none;
+    font-size: xx-large;
+    color: white;
+    padding-left: 2%;
+}
+
+#background {
+    background: url(../../media/restaurant-hero-image.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+#navbar_ul
+{
+    margin: 0px;
+    padding-top: 20px;
+    list-style-type: none;
+    width: 100%;
+}
+
+div.background-img {
+    background-image: url("../../media/restaurant-hero-image.jpg");
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-size:cover;
+}
+
+div.vertical-container {
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    height: 300px;
+    /*background-color: transparent;*/
+
+}
+
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Aligner-item {
+  max-width: 50%;
+  font-size: 74px;
+  font-weight: bold;
+  color: white;
+}
+
+#button-clear-top {
+    background-color: transparent;
+    height: 140px;
+    width: 100%;
+}
+
+.myButton {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #44c767), color-stop(1, #5cbf2a));
+    background:-moz-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+    background:-webkit-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+    background:-o-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+    background:-ms-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+    background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#44c767', endColorstr='#5cbf2a',GradientType=0);
+    background-color:#44c767;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:16px 76px;
+    text-decoration:none;
+    text-shadow:0px 0px 0px #2f6627;
+}
+.myButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5cbf2a), color-stop(1, #44c767));
+    background:-moz-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+    background:-webkit-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+    background:-o-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+    background:-ms-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+    background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cbf2a', endColorstr='#44c767',GradientType=0);
+    background-color:#5cbf2a;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+
+.button-clear-bottom {
+    /*background-color: blue;*/
+    background-color: transparent;
+    width: 100%;
+    height: 62px;
+}
+
+#button-aligner {
+    height: 220px;
+    background-color: transparent;
+    margin-top: 70px;
+
+}
+
+.boxes {
+    background-color: transparent;
+    height: 100%;
+    width: 25%;
+    float: left;
+    margin-right: 10px;
+}
+
+footer {
+    margin: auto;
+    height: 60px;
+    background-color: #1e2127;
+    color: #ffffff;
+    text-align:center;
+    line-height: 4em;
+}
+
+a#g-footer-link {
+    color: white;
+    text-decoration: none;
+    height: 60px;
+    width: auto;
+
+}
