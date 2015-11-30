@@ -3,30 +3,68 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Galvanize Eats</title>
+        <title>Galvanize Eats - Orders</title>
         <meta name="MauricioAndrades" content="burgers and pizza">
-        <link rel="stylesheet" href="css/reset.css" type="text/css">
-        <link rel="stylesheet" href="css/normalize.css" type="text/css">
-        <link rel="stylesheet" href="css/main.css" type="text/css">
+        <link rel="stylesheet" href="../css/reset.css" type="text/css">
+        <link rel="stylesheet" href="../css/normalize.css" type="text/css">
+        <link rel="stylesheet" href="../css/orders.css" type="text/css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     </head>
 
 
     <body>
         <!-- navbar -->
+        <div id="header">
         <nav id="navbar">
           <ul id="navbar_ul">
             <li id="navbar_li"><a id="gHome" href="#">Galvanize Eats</a></li>
           </ul>
         </nav>
-        
+        </div>
 
+        <div id="side"></div>
+        <div id="left-form">
+            <div id="left-form-top">
+                <select id="left-form-top-select" multiple>
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="mercedes">Mercedes</option>
+                  <option value="audi">Audi</option>
+                </select>
 
+            </div>
+            <div id="left-form-bottom">
+
+                <fieldset>
+                    <form id="left-form-bottom-fields">
+                      First name:<br>
+                      <input type="text" name="Name">
+                      <br>
+                      Last name:<br>
+                      <input type="text" name="Phone Number">
+                      <br>
+                    
+                      Address:<br>
+                      <input type="text" name="Address">
+                      <input id="input-submit" type="submit" value="Submit" />
+                    </form>
+
+                </fieldset>
+            </div>
+        </div>
+        <div id="right-form">
+            <div id="right-span"></div>
+        </div>
+        <div id="right-side"></div>
+                
+
+        <div id="footer">
         <footer>
             <a href="http://www.galvanize.com/" id="g-footer-link"><i class="fa fa-copyright"></i>Galvanize 2015</a>
             <a href="#" id="g-footer-link"><i class="fa fa-plus"></i><a>
             <a href="http://www.galvanize.com/" id="g-footer-link"><i class="fa fa-copyright"></i>Denver, Colorado</a>
         </footer>
+        </div>
 
 
         <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
